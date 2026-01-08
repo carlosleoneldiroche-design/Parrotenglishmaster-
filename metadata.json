@@ -1,0 +1,24 @@
+{
+  "name": "PARROT - English Master",
+  "short_name": "ParrotAI",
+  "description": "A gamified language learning application powered by Gemini AI, featuring interactive lessons, pronunciation practice, and a personalized learning path.",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#059669",
+  "background_color": "#ffffff",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ],
+  "expo": {
+    "web": {
+      "favicon": "./favicon.ico",
+      "pwa": {
+        "enabled": true,
+        "display": "standalone",
+        "orientation": "portrait",
+        "themeColor": "#059669"
+      }
+    }
+  }
+}
